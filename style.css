@@ -38,9 +38,10 @@ img {
 .square .heart {
         display: none;
         position: absolute;
-        bottom: 0;
+        bottom: 5%;
         text-align: center;
         left: 50%;
+        font-size: 12px;
 }
 
 .square:hover .heart{
