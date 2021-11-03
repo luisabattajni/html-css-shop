@@ -45,12 +45,16 @@ body {
 }
 
 .heart {
-        color: red;
+        color: transparent;
         position: absolute;
         bottom: 0;
         text-align: center;
         margin-left: 50%;
-        /*display: none;*/
+}
+
+.square:hover .heart{
+    color: red;
+    cursor: pointer;
 }
 
 /* to center properly */
