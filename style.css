@@ -1,22 +1,24 @@
+
 .square {
-        background-color: gray;
         width: 240px;
         height: 300px;
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
 }
-
 .sq01 {
     background-image: url("img/pd1.jpeg");
 }
-
 .sq02 {
     background-image: url("img/pd2.jpeg");
 }
-
 .sq03 {
     background-image: url("img/pd3.jpeg");
 }
 
-/* add margin: 2%; or so */
+body {
+    margin: 10%;
+}
+
+
+/* to center properly */
