@@ -1,26 +1,17 @@
 
 .square {
-        width: 240px;
-        height: 300px;
+        width: 32%;
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 35px;
         position: relative;
 }
-.sq01 {
-    background-image: url("img/pd1.jpeg");
-}
-.sq02 {
-    background-image: url("img/pd2.jpeg");
-}
-.sq03 {
-    background-image: url("img/pd3.jpeg");
+
+img {
+    width: 100%;
 }
 
-body {
-    margin: 10%;
-}
 
 .square .green {
     font-size: 12px;
@@ -45,19 +36,20 @@ body {
 }
 
 .square .heart {
-        color: transparent;
+        display: none;
         position: absolute;
         bottom: 0;
         text-align: center;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto; 
+        left: 50%;
 }
 
 .square:hover .heart{
     color: red;
-    cursor: pointer;
+    display: block;
 }
 
-/* to center properly */
+#cont {
+    width: 80%;
+    margin: 50px auto;
+}
+
