@@ -44,5 +44,13 @@ body {
     right: 0;
 }
 
+.heart {
+        color: red;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        margin-left: 50%;
+        /*display: none;*/
+}
 
 /* to center properly */
