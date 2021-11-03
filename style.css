@@ -20,5 +20,21 @@ body {
     margin: 10%;
 }
 
+.green {
+    font-size: 12px;
+    background-color: green;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+}
+
+.red {
+    font-size: 12px;
+    background-color: red;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+}
+
 
 /* to center properly */
